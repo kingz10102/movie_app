@@ -23,7 +23,9 @@ function Row({ title, fetchUrl }) {
         
     {/* wrapper contains film/tv poster image */}
             <div className="posters__row">
-          
+                {movies.map(movie => (
+                    <img src={movie.poster_path} alt={movie.name}/>
+                ))}
             </div>
         </div>
     )
