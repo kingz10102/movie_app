@@ -11,6 +11,7 @@
 
 .row{
     margin-left: 20px;   /*space around between content and border from bage on leftside*/
+    color:#ffff;
 }
 
 .row__poster {
