@@ -1,8 +1,12 @@
 .row__posters{
     display: flex;
     overflow-y:hidden;
-    overflow-x: scroll;
+    overflow-x: scroll; /*scrool bar on bottom x axis*/
     padding: 20px;
+}
+
+.row__posters::-webkit-scrollbar{
+    display: none; /*have scrow bar hidden but keep functionality*/
 }
 
 
