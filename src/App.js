@@ -1,6 +1,7 @@
 import React from 'react';
 import Row from './components/Row';
 import './App.css';
+import requests from './requests'
 
 
 function App() {
