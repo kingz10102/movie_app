@@ -14,11 +14,17 @@ function Row({ title, fetchUrl }) {
         }
         fetchData();
     }, [fetchUrl]);
+
+    console.log(movies)
     return (
-        <div>
-            {/* title of Row */}
-         <h2>{title}</h2>
-            {/* wrapper contains film/tv poster image */}
+        /* title of Row */
+        <div className="row">
+            <h2>{title}</h2>
+        
+    {/* wrapper contains film/tv poster image */}
+            <div className="posters__row">
+          
+            </div>
         </div>
     )
 }
