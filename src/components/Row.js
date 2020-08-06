@@ -15,6 +15,7 @@ function Row({ title, fetchUrl }) {
         fetchData();
     }, [fetchUrl]);
 
+    console.table(movies)
     console.log(movies)
     return (
         /* title of Row */
