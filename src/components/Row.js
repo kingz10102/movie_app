@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from '../axios';
 
-
+const base_url= "https://image.tmdb.org/t/p/original/";
 function Row({ title, fetchUrl }) {
     const [movies, setMovies] = useState ([]);
     // using react hook {useEffect} to run code on a specific condition
@@ -24,7 +24,7 @@ function Row({ title, fetchUrl }) {
     {/* wrapper contains film/tv poster image */}
             <div className="posters__row">
                 {movies.map(movie => (
-                    <img src={movie.poster_path} alt={movie.name}/>
+                    <img src={`${base_url}${movie.poster_path}`} alt={movie.name}/>
                 ))}
             </div>
         </div>
