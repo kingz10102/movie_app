@@ -9,7 +9,9 @@
     display: none; /*have scrow bar hidden but keep functionality*/
 }
 
-
+.row{
+    margin-left: 20px;   /*space around between content and border from bage on leftside*/
+}
 
 .row__poster {
     object-fit: contain;
