@@ -14,12 +14,16 @@ function Banner() {
         }
         fetchData();
     }, []);
+    console.log(movie)
     
     return (
-        <header>   {/* Background Image */}
+        <header className="banner">   {/* Background Image */}
+            <div className="banner__contents">
+                
             {/* title */}
             {/* 2 button */}
             {/* description */}
+            </div>
         </header>
     )
 }
