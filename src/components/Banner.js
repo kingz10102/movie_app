@@ -24,7 +24,9 @@ function Banner() {
             backgroundPosition: "center center"
         }}>   {/* Background Image */}
             <div className="banner__contents">
-                <h1></h1>
+                <h1>
+                    {movie?.title || movie?.name || movie?.original_name}
+                </h1>
             {/* title */}
             {/* 2 button */}
             {/* description */}
