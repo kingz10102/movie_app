@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <h1>Hello World</h1>
       <Row title="NETFLIX ORIGINALS"/>
-      <Row />
+      <Row title= "Trending NOW"/>
       <Row />
     </div>
   );
